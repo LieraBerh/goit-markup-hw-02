@@ -37,12 +37,14 @@ span {
 .nav-link:focus {
     color: #404bbf;
 }
+.contacts {
+    font-style: normal;
+}
 .contacts-link {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    font-style: normal;
 }
 .contacts-link:hover,
 .contacts-link:focus {
@@ -96,10 +98,10 @@ span {
     letter-spacing: 0.02em;
     color: #434455;
 }
-.section-2 {
+.section-two {
     background-color:#f4f4fd;
 }
-.section-2 .section-list-item {
+.section-two .section-list-item {
     background-color: #FFF
 }
 .footer {
