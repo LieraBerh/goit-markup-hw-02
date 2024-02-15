@@ -37,15 +37,15 @@ span {
 .nav-link:focus {
     color: #404bbf;
 }
-.contacts {
+.contacts-link {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
     font-style: normal;
 }
-.contacts a:hover,
-.contacts a:focus {
+.contacts-link:hover,
+.contacts-link:focus {
     color: #404bbf;
 }
 .hero-image {
@@ -61,16 +61,12 @@ span {
 }
 .hero-image-button {
     font-family: "Roboto", sans-serif;
-    padding: 16px 32px;
     background-color: #4d5ae5;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
     cursor: pointer;
 }
 .hero-image button:hover,
@@ -83,7 +79,8 @@ span {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    text-align: center
+    text-align: center;
+    color: #2e2f42;
 }
 .section-card-header {
     font-weight: 500;
@@ -99,10 +96,10 @@ span {
     letter-spacing: 0.02em;
     color: #434455;
 }
-.section2 {
+.section-2 {
     background-color:#f4f4fd;
 }
-.section-list-item {
+.section-2 .section-list-item {
     background-color: #FFF
 }
 .footer {
