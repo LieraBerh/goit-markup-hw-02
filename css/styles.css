@@ -1,6 +1,6 @@
 body {
     font-family: "Roboto", sans-serif;
-    color: #2e2f42;
+    color: #434455;
     background-color: #fff;
 }
 a {
@@ -14,24 +14,30 @@ ol {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-}
-span {
     color: #4d5ae5;
 }
-.navigation a {
+span {
+    color: #2e2f42;
+}
+.logo-span {
+    color: #f4f4fd;
+}
+.nav-link {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
-.navigation a:hover {
+.nav-link:hover,
+.nav-link:focus {
     color: #404bbf;
 }
-.contacts a {
+.contacts {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -39,24 +45,23 @@ span {
     font-style: normal;
 }
 .contacts a:hover,
-.contacts a:active {
+.contacts a:focus {
     color: #404bbf;
 }
 .hero-image {
     background-color: #2e2f42;
 }
-h1 {
+.page-header {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     color: #fff;
+    text-align: center;
 }
-.hero-image button {
-    border-radius: 4px;
+.hero-image-button {
+    font-family: "Roboto", sans-serif;
     padding: 16px 32px;
-    width: 169px;
-    height: 56px;
     background-color: #4d5ae5;
     font-weight: 500;
     font-size: 16px;
@@ -66,26 +71,28 @@ h1 {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    cursor: pointer;
 }
 .hero-image button:hover,
-.hero-image button:active {
+.hero-image button:focus {
     background-color: #404bbf;
 }
-h2 {
+.section-header {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    text-align: center
 }
-h3 {
+.section-card-header {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-p {
+.section-card-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -95,9 +102,14 @@ p {
 .section2 {
     background-color:#f4f4fd;
 }
+.section-list-item {
+    background-color: #FFF
+}
 .footer {
     background-color: #2e2f42;
 }
-.footer p {
+.footer-text {
     color: #f4f4fd;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
